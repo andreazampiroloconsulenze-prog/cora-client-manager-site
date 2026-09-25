@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy — CORA Client Manager</title>
+<meta name="description" content="Informativa privacy di CORA Client Manager, inclusa la gestione dei dati Google Drive e Google Calendar.">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#2563eb">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="/"><span class="logo">C</span><span>CORA Client Manager</span></a>
+<nav aria-label="Navigazione principale">
+<a href="/">Home</a><a href="/privacy/">Privacy</a><a href="/termini/">Termini</a><a href="/support/">Supporto</a>
+</nav></div></header>
+
+<main class="container">
+<section class="page-head"><span class="kicker">Aggiornata il 25 settembre 2026</span><h1 style="font-size:clamp(2.2rem,5vw,3.6rem)">Privacy Policy</h1>
+<p class="lead">Questa informativa descrive come CORA Client Manager tratta i dati dell'utente, con particolare attenzione ai dati ottenuti tramite le API Google.</p></section>
+<section class="prose card">
+<h2>1. Identità e contatto</h2><p><strong>CORA Client Manager</strong> è un software desktop sviluppato e gestito da Andrea Zampirolo.</p><p>Contatto privacy e supporto: <a href="mailto:andrea.zampirolo.consulenze@gmail.com">andrea.zampirolo.consulenze@gmail.com</a>.</p>
+<h2>2. Principio local-first</h2><p>CORA è progettato secondo un modello <strong>local-first</strong>: le informazioni operative principali dell'applicazione sono conservate sul dispositivo dell'utente e non vengono trasferite automaticamente a Google.</p>
+<h2>3. Dati Google a cui CORA può accedere</h2><p>L'accesso a Google è opzionale e avviene solo dopo autorizzazione esplicita dell'utente tramite OAuth.</p>
+<table class="data-table"><thead><tr><th>Servizio</th><th>Permesso</th><th>Uso</th></tr></thead><tbody>
+<tr><td>Identità Google</td><td><code>openid</code>, <code>email</code></td><td>Identificare l'account Google collegato e mostrare all'utente quale account è connesso.</td></tr>
+<tr><td>Google Drive</td><td><code>drive.file</code></td><td>Creare, caricare, scaricare o aggiornare file che l'utente gestisce tramite CORA. CORA non richiede accesso generale a tutti i file presenti nel Drive.</td></tr>
+<tr><td>Google Calendar</td><td><code>calendar.events</code></td><td>Creare, leggere e aggiornare gli eventi che l'utente sceglie di gestire o sincronizzare con CORA.</td></tr>
+</tbody></table>
+<p><strong>CORA non richiede permessi Gmail o Google Contacts.</strong></p>
+<h2>4. Come vengono utilizzati i dati Google</h2><p>I dati ottenuti tramite Google vengono utilizzati esclusivamente per fornire le funzionalità visibili richieste dall'utente: gestione di file tramite Drive, sincronizzazione degli eventi tramite Calendar e identificazione dell'account collegato.</p><p>I dati Google non vengono utilizzati per pubblicità, retargeting, profilazione pubblicitaria, vendita di dati, valutazioni creditizie o attività estranee alle funzionalità di CORA.</p>
+<h2>5. Conservazione</h2><p>I dati operativi possono essere conservati localmente sul dispositivo dell'utente quando necessari al funzionamento di CORA, ad esempio identificativi di file o eventi, stato della sincronizzazione, hash tecnici e metadati di collegamento.</p><p>I token OAuth non vengono memorizzati in chiaro nel database operativo di CORA. Nella versione Windows sono conservati tramite il vault credenziali del profilo utente.</p>
+<h2>6. CORA Inbox</h2><p>CORA può utilizzare una cartella locale scelta dall'utente come “CORA Inbox”. Se quella cartella viene sincronizzata tramite Google Drive per desktop, la sincronizzazione del filesystem è gestita dal software Google installato dall'utente. CORA osserva la cartella locale e non usa un accesso globale al Drive per scandagliare file arbitrari.</p>
+<h2>7. Condivisione e accesso umano</h2><p>CORA non vende i dati Google e non li trasferisce a piattaforme pubblicitarie o data broker.</p><p>L'accesso umano ai dati dell'utente non avviene normalmente. Può verificarsi soltanto quando l'utente fornisce volontariamente file o informazioni all'assistenza, oppure quando necessario per sicurezza, prevenzione di abusi o obblighi di legge.</p>
+<h2>8. Disconnessione e revoca</h2><p>L'utente può scollegare il proprio account Google da CORA. La disconnessione rimuove l'autorizzazione locale utilizzata dall'app, ma non elimina automaticamente i dati già presenti in CORA o gli elementi già presenti nei servizi Google.</p><p>L'utente può inoltre revocare l'accesso a CORA dalle impostazioni di sicurezza del proprio account Google.</p>
+<h2>9. Sicurezza</h2><p>CORA applica separazione per profilo, minimizzazione dei permessi, gestione protetta delle credenziali e diagnostica progettata per non includere token o contenuti sensibili.</p>
+<h2>10. Uso dei dati Google</h2><p>L'uso da parte di CORA delle informazioni ricevute dalle API Google è limitato alla fornitura e al miglioramento delle funzionalità rivolte all'utente descritte in questa informativa ed è progettato per rispettare i requisiti applicabili della Google API Services User Data Policy e di Limited Use.</p>
+<h2>11. Aggiornamenti</h2><p>Questa informativa può essere aggiornata quando cambiano le funzionalità di CORA o le modalità di trattamento. La data di aggiornamento è indicata in alto.</p>
+<h2>12. Contatti</h2><p>Per richieste relative alla privacy: <a href="mailto:andrea.zampirolo.consulenze@gmail.com">andrea.zampirolo.consulenze@gmail.com</a>.</p>
+</section></main>
+<footer><div class="container footer-grid">
+<div><div class="brand"><span class="logo">C</span><span>CORA Client Manager</span></div><p class="small">Software desktop per la gestione consulenziale e organizzativa.</p></div>
+<div class="footer-links"><a href="/privacy/">Privacy</a><a href="/termini/">Termini</a><a href="/support/">Supporto</a></div>
+</div></footer>
+</body></html>
